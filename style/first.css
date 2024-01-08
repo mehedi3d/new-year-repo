@@ -1,0 +1,18 @@
+/* added font style */
+/* /* body{
+    font-family: 'Merriweather Sans', sans-serif; */
+body{
+        font-family: 'Merriweather Sans', sans-serif;
+}
+.img-text{
+    background-image: url('../resources/Banner\ Image.png');
+    width:1320px;
+    height: 600px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
