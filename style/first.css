@@ -8,11 +8,50 @@ body{
     background-image: url('../resources/Banner\ Image.png');
     width:1320px;
     height: 600px;
-}
+    filter: brightness(90%);}
+
+/* }
 .text{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50% -50%);
+} */
+.text-one{
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
     transform: translate(-50% -50%);
 }
+.text-two{
+    color: white;
+    font-size: 72px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50% -50%);
 
+}
+.pone{
+    text-align: center;
+    color: #F00;
+font-size: 88px;
+font-weight: 700;
+line-height: normal;
+}
+.ptwo{
+    text-align: center;
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+}
+.pthree{
+    text-align: center;
+    color: #070211;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
