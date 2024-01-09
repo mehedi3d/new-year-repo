@@ -1,14 +1,16 @@
 /* added font style */
 /* /* body{
     font-family: 'Merriweather Sans', sans-serif; */
-body{
-        font-family: 'Merriweather Sans', sans-serif;
+body {
+    font-family: 'Merriweather Sans', sans-serif;
 }
-.img-text{
+
+.img-text {
     background-image: url('../resources/Banner\ Image.png');
-    width:1320px;
+    width: 1320px;
     height: 600px;
-    filter: brightness(90%);}
+    filter: brightness(90%);
+}
 
 /* }
 .text{
@@ -17,7 +19,7 @@ body{
     left: 40%;
     transform: translate(-50% -50%);
 } */
-.text-one{
+.text-one {
     color: white;
     font-size: 32px;
     position: absolute;
@@ -25,7 +27,8 @@ body{
     left: 40%;
     transform: translate(-50% -50%);
 }
-.text-two{
+
+.text-two {
     color: white;
     font-size: 72px;
     position: absolute;
@@ -34,72 +37,171 @@ body{
     transform: translate(-50% -50%);
 
 }
-.pone{
+
+.pone {
     text-align: center;
     color: #F00;
-font-size: 88px;
-font-weight: 700;
-line-height: normal;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
 }
-.ptwo{
+
+.ptwo {
     text-align: center;
     color: #F00;
-font-size: 24px;
-font-weight: 500;
-line-height: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
 }
-.pthree{
+
+.pthree {
     text-align: center;
     color: #070211;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
-.new-year{
+
+.new-year {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 802.9px;
-height: 500px;
-flex-shrink: 0;
+    height: 500px;
+    flex-shrink: 0;
 }
-.new-welcome{
-    margin-left: 140px;
+
+.new-welcome {
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: flex-start;
-  flex-direction: row;
-  background-image: url(../resources/Vectorrr.png);
+    flex-direction: row;
+    background-image: url(../resources/Vectorrr.png);
 }
-.block{
+
+.block {
     display: inline-block;
+    margin-left: 126px;
 }
-.image-one{
+
+.image-one {
     float: right;
+
 }
-.header-one{
+
+.header-one {
     color: hsla(0, 0%, 94%, 0.835);
     font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 7.04px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
 }
-.header-two{
+
+.header-two {
     color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn-one{
+
+.btn-one {
     color: rgba(255, 255, 255, 0.74);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-background-color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: black;
+    margin-left: 32px;
+}
+
+.margin-one {
+    padding: 100px 214px 385px 385px;
+    border-radius: 10px;
+    margin: 120px 150px;
+    background-color: #f0e0e0;
+
+
+}
+
+.join-me {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #F00;
+    border: 1px solid red;
+}
+
+.color-one {
+    color: #F00;
+}
+
+.center {
+    display: flex;
+}
+
+.center-tag {
+    background-color: white;
+    width: 1600px;
+    height: 400px;
+}
+
+.left {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.midel {
+    display: inline-block;
+    margin-left: 10px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.right {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+/* .left .midel .right {
+    float: left;
+width: 33.33%;
+padding: 5px;
+} */
+.h3-color {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.h1-color {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.p-color {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.h1-color-one {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
 }
