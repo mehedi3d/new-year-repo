@@ -74,6 +74,7 @@ body {
 .new-welcome {
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 140px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -366,6 +367,7 @@ padding: 5px;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    margin-left: 140px;
 }
 .face{
     display: flex;
@@ -375,4 +377,34 @@ padding: 5px;
     width: 64px;
     height: 64px;
     flex-shrink: 0; 
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last-fast{
+    display: flex;
+}
+.site-all{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 140px;
+}
+.site-last{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 350px;
+}
+.haha{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 40px;
+    margin-top: 22px;
+    margin-right: 50px;
 }
