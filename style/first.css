@@ -355,3 +355,24 @@ padding: 5px;
     background: #F00;
     margin-left: 0px;
 }
+
+.black {
+    background-color: #070211;
+    ;
+}
+
+.site {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.face{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0; 
+}
